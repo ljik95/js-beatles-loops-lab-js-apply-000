@@ -27,5 +27,5 @@ function iLoveTheBeatles(num) {
     anArr.push('I love the Beatles!');
     num--;
   }
-  while {
+  while (num > 0);
 }
