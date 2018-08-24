@@ -4,7 +4,7 @@ function theBeatlesPlay(musiciansArr, instrumentsArr) {
   let listOfInstruments = [];
   
   for (var i = 0; i < musiciansArr.length; i++) {
-    listOfInstruments.push(musiciansArr[i] + ' plays ' + instrumentsArr[i] + '.');
+    listOfInstruments.push(musiciansArr[i] + ' plays ' + instrumentsArr[i]);
   }
   
   return listOfInstruments;
@@ -29,3 +29,5 @@ function iLoveTheBeatles(num) {
   }
   while (num < 15);
 }
+
+return
